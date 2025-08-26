@@ -1,0 +1,13 @@
+# Ignore all data files by default
+*.csv
+*.xlsx
+*.sav
+*.sas7bdat
+
+# Allow small sample/example data
+!example.csv
+
+# Ignore any large archives
+*.zip
+*.tar
+*.gz
