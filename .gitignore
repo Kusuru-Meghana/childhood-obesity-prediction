@@ -1,0 +1,32 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment folders
+env/
+venv/
+.venv/
+
+# Ignore system/OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore Colab-related temporary files
+*.swp
+*.swo
+*.bak
+
+# Ignore environment/config files (secrets, tokens, API keys)
+*.env
+*.json
+*.yaml
+*.yml
