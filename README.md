@@ -10,6 +10,13 @@ The goal of this project is to use data from the **2020 National Survey of Child
 Childhood obesity is a major public health concern linked to long-term health problems such as **diabetes, heart disease, and mental health issues**.  
 Understanding which factors are most associated with higher BMI can help inform **prevention strategies** and guide interventions at both family and policy levels.
 
+## Data
+A small **sample dataset** is provided in `data/example.csv` for demonstration.  
+
+The full NSCH data and supporting documents (e.g., Fast Facts, Codebook, Variable Labels) are **not stored in this repository** due to size and licensing restrictions.  
+You can access them directly from the [HRSA Maternal and Child Health Bureau](https://mchb.hrsa.gov/data-research/national-survey-childrens-health) or the [U.S. Census Bureau](https://www.census.gov/programs-surveys/nsch.html).  
+
+
 ## Dataset Information  
 
 - **Source**: U.S. Census Bureau & HRSA Maternal and Child Health Bureau  
