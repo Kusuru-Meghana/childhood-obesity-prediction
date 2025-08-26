@@ -58,7 +58,23 @@ For modeling, this was simplified into a **binary classification problem**:
 ## Results (Summary)  
 - Lifestyle factors like **physical activity, screen time, and sleep** were strongly associated with obesity.  
 - Socio-demographic factors such as **income level and household language** also played a role.  
-- The best-performing model achieved **X% accuracy** and provided insights into the most predictive features.  
+- The best-performing model achieved **X% accuracy** and provided insights into the most predictive features.
+
+#### 📂 Project Structure  
+
+childhood-obesity-prediction/  
+│── data/  
+│   ├── example.csv              # Small sample dataset for demo  
+│   └── .gitignore               # Ensures raw/large NSCH data is excluded  
+│  
+│── notebooks/  
+│   └── analysis.ipynb           # Main Jupyter/Colab notebook with EDA & modeling  
+│  
+│── requirements.txt             # List of dependencies (pandas, numpy, sklearn, etc.)  
+│── README.md                    # Project documentation (this file)  
+│── LICENSE                      # License information  
+│── .gitignore                   # Global ignore rules (cache, env, etc.)  
+
 
 ## How to Run  
 
