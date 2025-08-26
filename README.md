@@ -1,20 +1,16 @@
 # Childhood Obesity Prediction  
 **Predicting childhood obesity using 2020 NSCH data**
 
----
 
-## 📌 Project Overview  
-The goal of this project is to use data from the **2020 National Survey of Children's Health (NSCH)** to predict whether children aged 10–17 are **overweight or obese** based on their lifestyle, demographic, and family characteristics.
 
----
+## Project Overview  
+The goal of this project is to use data from the **2020 National Survey of Children's Health (NSCH)** to predict whether children aged 10–17 are **overweight or obese** based on their lifestyle, demographic, and family characteristics
 
-## 💡 Why This Matters  
+## Why This Matters  
 Childhood obesity is a major public health concern linked to long-term health problems such as **diabetes, heart disease, and mental health issues**.  
 Understanding which factors are most associated with higher BMI can help inform **prevention strategies** and guide interventions at both family and policy levels.
 
----
-
-## 📊 Dataset Information  
+## Dataset Information  
 
 - **Source**: U.S. Census Bureau & HRSA Maternal and Child Health Bureau  
 - **Year**: 2020  
@@ -33,9 +29,7 @@ For modeling, this was simplified into a **binary classification problem**:
 - `0` → Underweight or Normal  
 - `1` → Overweight or Obese  
 
----
-
-## 🔍 Methods  
+## Methods  
 
 1. **Exploratory Data Analysis (EDA)**  
    - Distribution of obesity rates across age, sex, household language, and lifestyle factors.  
@@ -54,16 +48,12 @@ For modeling, this was simplified into a **binary classification problem**:
    - Compared model performance.  
    - Identified most important predictors of obesity.  
 
----
-
-## 📈 Results (Summary)  
+## Results (Summary)  
 - Lifestyle factors like **physical activity, screen time, and sleep** were strongly associated with obesity.  
 - Socio-demographic factors such as **income level and household language** also played a role.  
 - The best-performing model achieved **X% accuracy** and provided insights into the most predictive features.  
 
----
-
-## ⚙️ How to Run  
+## How to Run  
 
 1. Clone this repository:  
    ```bash
